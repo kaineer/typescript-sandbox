@@ -6,3 +6,5 @@ main.js:
 clean:
 	rm main.js
 
+run: all
+	node main.js
