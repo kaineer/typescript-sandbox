@@ -2,7 +2,7 @@ all: main.js
 	node main.js
 
 main.js:
-	tsc main.ts --allowJs --outFile main.js --module system
+	tsc main.ts
 
 clean:
-	rm main.js
+	rm *.js
