@@ -4,6 +4,7 @@
  * `require` не работает, ладно
  * `export default` приводит к тому, что генерируется ключ `"default"`, хотелось бы обойтись без него.
  * Почитал про ES6 модули, [например здесь](http://exploringjs.com/es6/ch_modules.html#sec_basics-of-es6-modules), понял, что аналога `module.exports` больше не существует. А жаль.
+ * На самом деле, в typescript есть способ. См. в коде.
  * `make` компилирует `{f,main}.ts` в `.js`-файлы, `nodejs` их выполняет. Красота.
 
 Выводы

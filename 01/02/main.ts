@@ -1,3 +1,3 @@
-import f from './f';
+import f = require('./f');
 
 f();

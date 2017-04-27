@@ -6,5 +6,5 @@ hello.js:
 hello-err.js:
 	tsc hello-err.ts --noEmitOnError
 clean:
-	rm *.js
+	rm -f *.js
 
